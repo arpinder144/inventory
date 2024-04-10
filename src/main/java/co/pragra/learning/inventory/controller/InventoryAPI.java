@@ -37,5 +37,9 @@ public class InventoryAPI {
         return inventoryService.deleteProductByName(productName);
     }
 
+    public void check(){
+        System.out.println("All good?");
+    }
+
 
 }
